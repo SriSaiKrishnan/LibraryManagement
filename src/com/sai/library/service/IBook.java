@@ -2,7 +2,7 @@ package com.sai.library.service;
 
 import com.sai.library.model.Book;
 
-public interface IBookService {
+public interface IBook {
 
 	public void addBook(String bookName, String ISBN);
 

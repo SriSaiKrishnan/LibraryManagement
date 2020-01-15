@@ -6,17 +6,17 @@ package com.sai.library.serviceimpl;
 import java.util.ArrayList;
 
 import com.sai.library.model.Book;
-import com.sai.library.service.IBookService;
+import com.sai.library.service.IBook;
 
 /**
  * @author sv
  *
  */
-public class BookServiceImpl implements IBookService {
+public class BookImpl implements IBook {
 
 	ArrayList<Book> booksDB = new ArrayList<Book>();
 
-	public BookServiceImpl() {
+	public BookImpl() {
 
 	}
 

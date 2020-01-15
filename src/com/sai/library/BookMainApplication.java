@@ -3,8 +3,8 @@
  */
 package com.sai.library;
 
-import com.sai.library.service.IBookService;
-import com.sai.library.serviceimpl.BookServiceImpl;
+import com.sai.library.service.IBook;
+import com.sai.library.serviceimpl.BookImpl;
 
 /**
  * @author sv
@@ -12,7 +12,7 @@ import com.sai.library.serviceimpl.BookServiceImpl;
  */
 public class BookMainApplication {
 
-	public static IBookService bookService = new BookServiceImpl();
+	public static IBook bookService = new BookImpl();
 
 	/**
 	 * @param args
